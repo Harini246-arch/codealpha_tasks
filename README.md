@@ -1,30 +1,55 @@
-# Titanic Dataset - Exploratory Data Analysis
+# CodeAlpha Data Analytics Tasks
 
-## Objective
-To analyze the Titanic dataset and identify patterns and trends.
+## Task 1 - Web Scraping
 
-## Tools Used
+### Objective
+Extract quotes and author names from a public website using Python.
+
+### Tools Used
+- Python
+- Requests
+- BeautifulSoup
+- Pandas
+- VS Code
+
+### Output
+- quotes.csv
+- web_scraping.py
+
+
+## Task 2 - Exploratory Data Analysis (EDA)
+
+### Objective
+Analyze the Titanic dataset and identify patterns and trends.
+
+### Tools Used
 - Python
 - Pandas
 - Matplotlib
 - Seaborn
 - VS Code
 
-## Dataset Information
+### Dataset Information
 - Rows: 891
 - Columns: 12
 
-## Key Findings
+### Key Findings
+- Dataset contains 891 rows and 12 columns.
+- Missing values are present in Age, Cabin and Embarked columns.
+- Only 342 passengers survived.
+- Female passengers had a higher survival rate than male passengers.
+- Most passengers were between 20 and 40 years old.
 
-1. Dataset contains 891 rows and 12 columns.
-2. Missing values are present in Age, Cabin and Embarked columns.
-3. Only 342 passengers survived.
-4. Female passengers had a higher survival rate than male passengers.
-5. Most passengers were between 20 and 40 years old.
-
-## Visualizations
-
+### Visualizations
 - Survival Count Graph
 - Male vs Female Survival Graph
 - Age Distribution Graph
 - Correlation Heatmap
+
+### Files Included
+- eda.py
+- titanic.csv
+- survival_count.png
+- male_female_survival.png
+- age_distribution.png
+- Correlation.png
